@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Columna izquierda: título arriba, imagen debajo -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="start|top">
+
+        <TextView
+            android:id="@+id/title_text_land"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/title_mock"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/detail_image_land"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_border"
+            android:contentDescription="@string/detail_image_desc"
+            android:clipToOutline="true" />
+
+    </LinearLayout>
+
+    <!-- Columna derecha: descripción -->
+    <TextView
+        android:id="@+id/description_text_land"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/description_mock"
+        android:textAlignment="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
