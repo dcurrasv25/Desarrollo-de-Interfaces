@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio5</string>
+    <string name="menu_catalog">Catalog</string>
+    <string name="menu_about">About</string>
+    <string name="navigate_button">Navigate</string>
+    <string name="title_mock">Title mock</string>
+    <string name="description_mock">Description mock</string>
+    <string name="detail_image_desc">Detail image</string>
+    <string name="me_gusta">Me gusta</string>
+    <string name="about_text">About this app: información libre.</string>
+</resources>
